@@ -1,0 +1,23 @@
+{
+  "name": "pyypl_assessment_api",
+  "version": "1.0.0",
+  "description": "This project houses api test automation",
+  "scripts": {
+    "execute:api:test": "npx cypress run --spec cypress/api_specs/get.country.information.ts"
+  },
+  "repository": { 
+    "type": "git",
+    "url": "git+https://github.com/aggvipul1/pyypl_assessment_api.git"
+  },
+  "author": "aggvipul1@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aggvipul1/pyypl_assessment_api/issues"
+  },
+  "homepage": "https://github.com/aggvipul1/pyypl_assessment_api#readme",
+  "devDependencies": {
+    "cypress": "^13.9.0",
+    "mochawesome": "^7.1.3",
+    "typescript": "^5.4.5"
+  }
+}

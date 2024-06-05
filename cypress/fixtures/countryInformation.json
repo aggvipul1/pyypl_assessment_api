@@ -1,0 +1,108 @@
+{
+  "query": "query Query{ country(code: \"{{countryCode}}\") { name native capital emoji currency code languages { code name native rtl } } }",
+  "response": {
+    "AE": {
+        "name": "United Arab Emirates",
+        "native": "دولة الإمارات العربية المتحدة",
+        "capital": "Abu Dhabi",
+        "emoji": "🇦🇪",
+        "currency": "AED",
+        "code": "AE",
+        "states": [],
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic",
+            "native": "العربية",
+            "rtl": true
+          }
+        ]
+    },
+    "ZA": {
+      "name": "South Africa",
+      "native": "South Africa",
+      "capital": "Pretoria",
+      "emoji": "🇿🇦",
+      "currency": "ZAR",
+      "code": "ZA",
+      "languages": [
+        {
+          "code": "af",
+          "name": "Afrikaans",
+          "native": "Afrikaans",
+          "rtl": false
+        },
+        {
+          "code": "en",
+          "name": "English",
+          "native": "English",
+          "rtl": false
+        },
+        {
+          "code": "nr",
+          "name": "South Ndebele",
+          "native": "isiNdebele",
+          "rtl": false
+        },
+        {
+          "code": "st",
+          "name": "Southern Sotho",
+          "native": "Sesotho",
+          "rtl": false
+        },
+        {
+          "code": "ss",
+          "name": "Swati",
+          "native": "SiSwati",
+          "rtl": false
+        },
+        {
+          "code": "tn",
+          "name": "Tswana",
+          "native": "Setswana",
+          "rtl": false
+        },
+        {
+          "code": "ts",
+          "name": "Tsonga",
+          "native": "Xitsonga",
+          "rtl": false
+        },
+        {
+          "code": "ve",
+          "name": "Venda",
+          "native": "Tshivenḓa",
+          "rtl": false
+        },
+        {
+          "code": "xh",
+          "name": "Xhosa",
+          "native": "isiXhosa",
+          "rtl": false
+        },
+        {
+          "code": "zu",
+          "name": "Zulu",
+          "native": "isiZulu",
+          "rtl": false
+        }
+      ]
+    },
+    "SA":  {
+      "name": "Saudi Arabia",
+      "native": "العربية السعودية",
+      "capital": "Riyadh",
+      "emoji": "🇸🇦",
+      "currency": "SAR",
+      "code": "SA",
+      "languages": [
+        {
+          "code": "ar",
+          "name": "Arabic",
+          "native": "العربية",
+          "rtl": true
+        }
+      ]
+    }
+  }
+}
