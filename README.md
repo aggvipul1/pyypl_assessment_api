@@ -1,4 +1,4 @@
-## API Assignment test using Cypress
+## Pyypl API Assessment using Cypress & TypeScript
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
