@@ -1,6 +1,5 @@
 ## Pyypl API Assessment using Cypress & TypeScript
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 This repository contains API automation assigment using Cypress and TypeScript with mochawesome reporter. Below
 * `api_specs` directory: includes the specs/tests
@@ -9,8 +8,6 @@ This repository contains API automation assigment using Cypress and TypeScript w
 * `reports` directory: includes the mochawesome json & html report generated after test execution.
 * `result_examples` directory: includes the report execution images used in readme.
 
-
-<!-- GETTING STARTED -->
 ## Getting Started
 ### Prerequisites
 * Make sure you have `node.js` installed. If you don't, go to [official website](https://nodejs.org/en/download/) for instructions.
@@ -31,14 +28,12 @@ This repository contains API automation assigment using Cypress and TypeScript w
 Run below command mentioned in `package.json` to run the tests.
    ```shell
    npm run execute:api:test
-   ```
-    
+   ```   
 ### Execution Report
 * The test reports are saved in `reports` directory
 * Samples of test report generated
   * Successful execution resut ![img.png](result_examples/passed_exe.png) 
   * Failure execution result ![img.png](result_examples/failed_exe.png) 
-
 
 ### Note
 These tests successfully execute & work fine on NodeJs version 22.2.0 on windows11
